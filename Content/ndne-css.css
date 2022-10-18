@@ -1,0 +1,36 @@
+<style>
+body{
+  margin: 0;
+}
+.MenuBar{
+display: flex;
+flex-direction: row;
+width: 100%;
+margin: 0;
+padding: 0;
+background-color: #000000;
+list-style-type: none;
+}
+.Menu-item{
+  padding: 3%;
+  padding-left: 10%;
+  cursor: pointer;
+}
+.Menu-item a{
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: normal;
+}
+.Menu-item a:hover{
+  font-weight: bolder;
+}
+.logo{
+  margin: 10%;
+}
+img{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+</style>
